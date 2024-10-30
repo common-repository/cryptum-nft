@@ -1,0 +1,67 @@
+
+li.payment_method_cryptumcheckout_gateway label img {
+	max-width: 150px;
+}
+.error-notice {
+	background-color: #f4b5ba !important;
+	padding: 2px 10px;
+	border-radius: 2px;
+	color: #555;
+}
+.user-wallet-form-field {
+	/**/
+}
+.user-wallet-label {
+	margin-bottom: 5px;
+}
+#user-wallet-generator-button {
+	font-size: 14px;
+}
+#user-wallet-connection-button {
+	font-size: 14px;
+	display: flex;
+}
+#user-wallet-connection-button div {
+	margin: 0;
+	padding: 0;
+}
+#user-wallet-connection-img-div {
+	height: 1rem;
+}
+#user-wallet-connection-img-div img {
+	height: 100%;
+}
+.no-close .ui-dialog-titlebar-close {
+	display: none;
+}
+.no-title .ui-dialog-titlebar {
+	background-color: transparent;
+	border: none;
+}
+.ui-widget-overlay {
+	opacity: .7;
+}
+.ui-dialog {
+	border-radius: 15px;
+	min-width: 500px;
+}
+.ui-dialog, .ui-dialog-buttonpane {
+	font-family: inherit;
+	font-size: 14px;
+}
+.ui-dialog button {
+	font-family: inherit;
+	font-size: 14px;
+}
+.ui-dialog-content {
+	font-size: 16px;
+}
+@media screen and (max-width: 500px) {
+	.ui-dialog {
+		width: 100% !important;
+		min-width: inherit;
+	}
+}
+.walletconnect-modal__headerLogo {
+	height: 21px !important;
+}
